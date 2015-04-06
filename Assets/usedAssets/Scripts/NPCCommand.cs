@@ -23,11 +23,5 @@ public class NPCCommand : MonoBehaviour {
 				allMyNpcs.Add(newNPC);
 			}
 		}
-
-		if (Input.GetKeyDown (KeyCode.R)){
-			foreach ( var thisNPC in allMyNpcs){
-				thisNPC.speed *= 2f;
-			}
-		}
 	}
 }

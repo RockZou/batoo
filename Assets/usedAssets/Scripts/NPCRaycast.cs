@@ -11,7 +11,8 @@ public class NPCRaycast : MonoBehaviour {
 	
 	}
 	
-	// Update is called once per frame
+	// Dude AI. Creates a ray from the body of the dude. Checks a short distance ( raycast range) to check for colission
+	// If there is a colission set a random rotation
 	void FixedUpdate () {
 
 		GetComponent<Rigidbody>().AddForce(-transform.right * speed, ForceMode.VelocityChange );

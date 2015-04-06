@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 
+// This class controlls the movement for the camera.
 public class cameramover : MonoBehaviour {
 
 
@@ -10,13 +11,6 @@ public class cameramover : MonoBehaviour {
 	void Start () {
 	
 	}
-
-	Vector3 arc1 = new Vector3(383.71f, -3.0f, 345.0f);
-	Vector3 arc2 = new Vector3(630.41f, 22.0f, 1224.0f);
-	Vector3 arc3 = new Vector3(1519.7f, -1.60f, 1213.0f);
-	Vector3 arc4 = new Vector3(1699.61f, -3.0f, 541.0f);
-	Vector3 arc5 = new Vector3(1416.71f, -3.0f, 192.0f);
-	Vector3 house = new Vector3(1528.91f, 10.0f, 1548.0f);
 
 	public Text Text;
 
@@ -29,6 +23,7 @@ public class cameramover : MonoBehaviour {
 			boost = 1.5f;
 		}
 
+		// Maps WASD to move the camera.
 
 		if ( Input.GetKey ( KeyCode.A ) ) 	{ // Time.deltaTime is the fraction of a second in between a frame
 			// a value that gets bigger with low FPS, smaller with high FPS

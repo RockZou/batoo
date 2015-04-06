@@ -1,11 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\usedAssets\Scripts\NPCRaycast.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\Game Development\Projects\Aytemiz_Raycasting\Assets\scripts\NPCCommand.cs">
     <Files>
-      <File FileName="Assets\usedAssets\Scripts\cameramover.cs" Line="50" Column="41" />
-      <File FileName="Assets\usedAssets\Scripts\ObstaclePlacer.cs" Line="33" Column="109" />
-      <File FileName="Assets\usedAssets\Scripts\spawner.cs" Line="1" Column="1" />
-      <File FileName="Assets\usedAssets\Scripts\NPCRaycast.cs" Line="17" Column="39" />
+      <File FileName="..\Game Development\Projects\Aytemiz_Raycasting\Assets\scripts\NPCCommand.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
