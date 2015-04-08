@@ -20,7 +20,7 @@ public class NPCRaycast : MonoBehaviour {
 		Ray ray = new Ray (transform.position, transform.forward);
 
 		if (Physics.Raycast(ray, raycast_range ) ){
-			rigidbody.velocity = Vector3.zero;
+			GetComponent<Rigidbody>().velocity = Vector3.zero;
 		
 			transform.Rotate(0f, Random.Range(0,359), 0f);
 

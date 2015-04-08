@@ -52,7 +52,7 @@ public class physicsControll : MonoBehaviour {
 		moveDirection = impactPoint - currentPosition;
 		
 		if (distanceFlag){
-			rigidbody.velocity = moveDirection.normalized * 5f;
+			GetComponent<Rigidbody>().velocity = moveDirection.normalized * 5f;
 			initialDistance = Vector3.Distance(transform.position, impactPoint);
 			distanceFlag = false;
 		}
@@ -61,7 +61,7 @@ public class physicsControll : MonoBehaviour {
 		
 		slowTreshold = (initialDistance / treshold);
 		if ( distance - 1f > slowTreshold){
-			rigidbody.AddForce( moveDirection.normalized * speed * boost 
+			GetComponent<Rigidbody>().AddForce( moveDirection.normalized * speed * boost 
 			                   , ForceMode.VelocityChange);
 		}
 
@@ -74,7 +74,7 @@ public class physicsControll : MonoBehaviour {
 			                                        smoothTime);
 		
 		} else if (distance < stopTreshold){
-			rigidbody.velocity = Vector3.zero;
+			GetComponent<Rigidbody>().velocity = Vector3.zero;
 		}
 	}
 }

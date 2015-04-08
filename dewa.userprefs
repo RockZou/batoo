@@ -1,8 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\Game Development\Projects\Aytemiz_Raycasting\Assets\scripts\NPCCommand.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\usedAssets\Scripts\NPCCommand.cs">
     <Files>
-      <File FileName="..\Game Development\Projects\Aytemiz_Raycasting\Assets\scripts\NPCCommand.cs" Line="1" Column="1" />
+      <File FileName="..\Game Development\Projects\Aytemiz_Raycasting\Assets\scripts\mine.cs" Line="21" Column="36" />
+      <File FileName="..\Game Development\Projects\Aytemiz_Raycasting\Assets\scripts\NPCRaycast.cs" Line="5" Column="2" />
+      <File FileName="Assets\usedAssets\Scripts\cameramover.cs" Line="5" Column="53" />
+      <File FileName="Assets\usedAssets\Scripts\NPCRaycast.cs" Line="15" Column="50" />
+      <File FileName="Assets\usedAssets\Scripts\NPCCommand.cs" Line="8" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
