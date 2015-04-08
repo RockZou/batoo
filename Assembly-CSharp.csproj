@@ -46,10 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\JSONDataObject.cs" />
      <Compile Include="Assets\_Scripts\APIRequests.cs" />
      <Compile Include="Assets\_Scripts\Bridge.cs" />
      <Compile Include="Assets\_Scripts\ButtonEvent.cs" />
+     <Compile Include="Assets\_Scripts\JSONDataObject.cs" />
      <Compile Include="Assets\_Scripts\JavaCallback.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
  <Reference Include="UnityEngine.UI">
