@@ -52,6 +52,7 @@
      <Compile Include="Assets\usedAssets\Scripts\ObstaclePlacer.cs" />
      <Compile Include="Assets\usedAssets\Scripts\bridge.cs" />
      <Compile Include="Assets\usedAssets\Scripts\cameramover.cs" />
+     <Compile Include="Assets\usedAssets\Scripts\mobileCameraMover.cs" />
      <Compile Include="Assets\usedAssets\Scripts\physicsControll.cs" />
      <Compile Include="Assets\usedAssets\Scripts\spawner.cs" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />

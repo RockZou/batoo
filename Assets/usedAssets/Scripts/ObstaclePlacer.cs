@@ -11,7 +11,6 @@ public class ObstaclePlacer : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		Debug.Log("This ran.");
 	}
 	
 	// Update is called once per frame
@@ -22,7 +21,7 @@ public class ObstaclePlacer : MonoBehaviour {
 		RaycastHit cursorRayInfo = new RaycastHit();
 		
 		if(Physics.Raycast(cursorRay, out cursorRayInfo, 10000f)){
-			Debug.Log( cursorRayInfo.collider.name);
+		
 			
 			if (Input.GetMouseButtonDown(0) ){
 				GameObject cloneWall = (GameObject)Instantiate( dudePrefab, cursorRayInfo.point, Quaternion.Euler(0,Random.Range(0,359),0) );
