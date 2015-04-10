@@ -22,7 +22,7 @@ public class APIRequests : MonoBehaviour {
 	public static string CODE="";
 	public static string REDIRECT_URI = "/";
 	
-	public string dateString = "20150404";
+	public string dateString = "20151010";
 
 	//UI Elements
 	public Button authButton;
