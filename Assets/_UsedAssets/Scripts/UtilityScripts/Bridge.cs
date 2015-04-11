@@ -13,7 +13,6 @@ public class Bridge{
 		}
 	}
 
-
 	//Test Functions
 	public static void exampleFunc(){
 		using (AndroidJavaObject ajo = new AndroidJavaObject("com.rock.moves_api.Bridge")) {
@@ -38,5 +37,13 @@ public class Bridge{
 			Debug.Log("after ShowCamera");
 		}//using
 	}//ShowCamera
+
+	public static void startCloudSight(){
+//		using (AndroidJavaClass ajc = new AndroidJavaClass("XXXXXXXXXXX")) {
+//			Debug.Log("Unity Bridge startCloudSight called");
+//			ajc.CallStatic("XXXX",XXXXX);
+//		}
+	}
+
 }//Bridge
 

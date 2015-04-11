@@ -46,15 +46,21 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\JSON Tests\CSharp\Test_CSharp.cs" />
+     <Compile Include="Assets\Water Flow Free\Scripts\WaterFlow.cs" />
+     <Compile Include="Assets\Water Flow Free\Scripts\WaterFlowDemo.cs" />
+     <Compile Include="Assets\Water Flow Free\Scripts\WaterFlowOrbitCamera.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\NPCCommand.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\NPCRaycast.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\ObstaclePlacer.cs" />
+     <Compile Include="Assets\_UsedAssets\Scripts\OceanController.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\UtilityScripts\APIRequests.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\UtilityScripts\Bridge.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\UtilityScripts\ButtonEvent.cs" />
+     <Compile Include="Assets\_UsedAssets\Scripts\UtilityScripts\CloudSightAPIRequests.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\UtilityScripts\JSONDataObject.cs" />
+     <Compile Include="Assets\_UsedAssets\Scripts\UtilityScripts\JSONImageKeywordsObject.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\UtilityScripts\JavaCallback.cs" />
+     <Compile Include="Assets\_UsedAssets\Scripts\UtilityScripts\WaterBottleChallenge.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\cameramover.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\mobileCameraMover.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\physicsControll.cs" />
@@ -68,6 +74,7 @@
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Water Flow Free\Shaders\Water Simple.shader" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
@@ -79,7 +86,7 @@
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
-     <None Include="Assets\JSON Tests\TroubleShoot.txt" />
+     <None Include="Assets\Water Flow Free\!Readme.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>/Users/Rock/Documents/Unity_copy/batoo/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
