@@ -47,19 +47,17 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\JSON Tests\CSharp\Test_CSharp.cs" />
-     <Compile Include="Assets\_Scripts\APIRequests.cs" />
-     <Compile Include="Assets\_Scripts\Bridge.cs" />
-     <Compile Include="Assets\_Scripts\ButtonEvent.cs" />
-     <Compile Include="Assets\_Scripts\JSONDataObject.cs" />
-     <Compile Include="Assets\_Scripts\JavaCallback.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\NPCCommand.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\NPCRaycast.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\ObstaclePlacer.cs" />
-     <Compile Include="Assets\_UsedAssets\Scripts\bridge.cs" />
+     <Compile Include="Assets\_UsedAssets\Scripts\UtilityScripts\APIRequests.cs" />
+     <Compile Include="Assets\_UsedAssets\Scripts\UtilityScripts\Bridge.cs" />
+     <Compile Include="Assets\_UsedAssets\Scripts\UtilityScripts\ButtonEvent.cs" />
+     <Compile Include="Assets\_UsedAssets\Scripts\UtilityScripts\JSONDataObject.cs" />
+     <Compile Include="Assets\_UsedAssets\Scripts\UtilityScripts\JavaCallback.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\cameramover.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\mobileCameraMover.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\physicsControll.cs" />
-     <Compile Include="Assets\_UsedAssets\Scripts\spawner.cs" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />

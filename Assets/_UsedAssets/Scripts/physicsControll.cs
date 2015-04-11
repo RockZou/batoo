@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class physicsControll : MonoBehaviour {
-
+	public GameObject theOcean;
 
     Rigidbody rbody;
 	Transform position;
@@ -25,18 +25,27 @@ public class physicsControll : MonoBehaviour {
 
 	bool distanceFlag = true;
 
+
+
 	// Use this for initialization
 	void Start () {
-
+		Debug.Log ("Physics controller called");
+		theOcean = GameObject.Find ("Ocean");
 	}
-	
+
+	void Update(){
+		Debug.Log (transform);
+		
+	}
+
 	// FixedUpdate is called one a fixed interval / every physics frame
     // Use this when you are doing with physics
-	void Update(){
-	
 
-	}
 	void FixedUpdate () {
+		
+		Vector3 waterPositions = theOcean.GetComponent<Transform>().position;
+		float waterLevel = waterPositions.y;
+
 		Ray cursorRay = Camera.main.ScreenPointToRay( Input.mousePosition);
 		RaycastHit cursorRayInfo = new RaycastHit();
 		

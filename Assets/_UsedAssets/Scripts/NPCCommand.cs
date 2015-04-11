@@ -7,13 +7,16 @@ public class NPCCommand : MonoBehaviour {
 	public NPCRaycast npcPrefab;
 	public List<NPCRaycast> allMyNpcs = new List<NPCRaycast>();
 
+
 	// Use this for initialization
 	void Start () {
-	
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+
 		Ray ray = Camera.main.ScreenPointToRay ( Input.mousePosition);
 		RaycastHit rayHit = new RaycastHit();
 
@@ -23,5 +26,6 @@ public class NPCCommand : MonoBehaviour {
 				allMyNpcs.Add(newNPC);
 			}
 		}
+
 	}
 }
