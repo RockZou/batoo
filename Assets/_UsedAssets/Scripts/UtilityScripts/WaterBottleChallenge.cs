@@ -59,8 +59,8 @@ public class WaterBottleChallenge : MonoBehaviour {
 
 		//sea level drop by 50, everytime this challenge is completed
 		Vector3 seaLevel = theOcean.transform.position;
-		seaLevel.y = seaLevel.y - 50;
-		theOcean.changeSeaLevel (seaLevel.y);
+
+		theOcean.changeSeaLevel (seaLevel.y - 50);
 
 		//Coconuts(currency) change to be added
 		/*

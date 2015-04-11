@@ -49,10 +49,12 @@
      <Compile Include="Assets\Water Flow Free\Scripts\WaterFlow.cs" />
      <Compile Include="Assets\Water Flow Free\Scripts\WaterFlowDemo.cs" />
      <Compile Include="Assets\Water Flow Free\Scripts\WaterFlowOrbitCamera.cs" />
-     <Compile Include="Assets\_UsedAssets\Scripts\NPCCommand.cs" />
-     <Compile Include="Assets\_UsedAssets\Scripts\NPCRaycast.cs" />
-     <Compile Include="Assets\_UsedAssets\Scripts\ObstaclePlacer.cs" />
+     <Compile Include="Assets\_UsedAssets\Scripts\AnimalAI.cs" />
+     <Compile Include="Assets\_UsedAssets\Scripts\AnimalController.cs" />
+     <Compile Include="Assets\_UsedAssets\Scripts\AnimalRaycast.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\OceanController.cs" />
+     <Compile Include="Assets\_UsedAssets\Scripts\PalmBehavior.cs" />
+     <Compile Include="Assets\_UsedAssets\Scripts\SpeciesCreator.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\UtilityScripts\APIRequests.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\UtilityScripts\Bridge.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\UtilityScripts\ButtonEvent.cs" />
@@ -63,7 +65,6 @@
      <Compile Include="Assets\_UsedAssets\Scripts\UtilityScripts\WaterBottleChallenge.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\cameramover.cs" />
      <Compile Include="Assets\_UsedAssets\Scripts\mobileCameraMover.cs" />
-     <Compile Include="Assets\_UsedAssets\Scripts\physicsControll.cs" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />

@@ -3,22 +3,27 @@ using System.Collections;
 
 public class OceanController : MonoBehaviour {
 
+	Vector3 currentSeaLevel;
+	Vector3 targetSeaLevel;
+
 	// Use this for initialization
 	void Start () {
+		targetSeaLevel = transform.position;
+		targetSeaLevel.y = 170;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
+		seaLevelUpdate ();
 	}
 
-	public void changeSeaLevel(float targetSeaLevel)
+	public void changeSeaLevel(float targetLevel)
 	{
-		//float currentSeaLevel = transform.position.y;
-		//transform.position.y = Mathf.Lerp (currentSeaLevel, targetSeaLevel, Time.time);
+		targetSeaLevel.y = targetLevel;
+	}
 
-		Vector3 t_position = transform.position;
-		t_position.y = targetSeaLevel;
-		transform.position = t_position;
+	public void seaLevelUpdate()
+	{
+		transform.position = Vector3.Lerp (transform.position, targetSeaLevel, Time.deltaTime);
 	}
 }
